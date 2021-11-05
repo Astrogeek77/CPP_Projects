@@ -22,5 +22,6 @@ int main (){
     if (position >size-1) {cout << "Yay! You finished the race" << endl; break;}
     for(int sleep=0; sleep< 1000000 ; ++ sleep);
   }   
+  system("pause");
   return 0; 
 }

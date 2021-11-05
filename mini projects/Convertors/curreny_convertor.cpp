@@ -33,5 +33,6 @@ int main()
     cout << dollars << " American dollars are equal to " << R << " Russian Ruble" << endl;
     cout << dollars << " American dollars are equal to " << SA << " Saudi Arabian Riyal" << endl;
     cout << dollars << " American dollars are equal to " << AF << " South African Rand" << endl;
+    system("pause");
     return 0;
 }

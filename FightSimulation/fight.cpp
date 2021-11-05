@@ -174,8 +174,12 @@ public:
 int main()
 {
     srand(time(NULL));
-    Warrior thor("Thor", 100, 30, 20);
-    Warrior hulk("Hulk", 130, 25, 15);
+    // Warrior thor("Thor", 150, 30, 20);
+    // Warrior hulk("Hulk", 145, 25, 25);
+    Warrior batman("Batman", 180, 35, 35);
+    Warrior superman("Superman", 185, 30, 40);
 
-    Battle::StartFight(thor, hulk);
+    // Battle::StartFight(thor, hulk);
+    Battle::StartFight(batman, superman);
+    system("pause");
 }
